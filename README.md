@@ -59,3 +59,5 @@ function generatePassword() {
 }
 generatePassword();
 ```
+
+To see full JavaScript file: assets/index.js
