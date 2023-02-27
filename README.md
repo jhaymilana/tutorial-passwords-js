@@ -60,4 +60,5 @@ function generatePassword() {
 generatePassword();
 ```
 
-To see full JavaScript file: assets/index.js
+To see full JavaScript file: 
+https://github.com/JhayMilana/tutorial-passwords-js/blob/main/assets/index.js
