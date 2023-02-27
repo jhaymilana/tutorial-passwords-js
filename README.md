@@ -14,3 +14,20 @@ function randomNumber() {
   return Math.floor(Math.random() * 999);
 }
 ```
+
+To create the second function use a while loop to keep generating random letters
+to the desired length of set random letters
+``` javascript
+// Create another function to generate a set of random numbers
+function randomLetters(length) {
+  let result = '';
+  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+  const charsLength = chars.length;
+  let counter = 0;
+  while (counter < length) {
+    result += chars.charAt(Math.floor(Math.random() * charsLength));
+    counter += 1;
+  }
+  return result;
+}
+```
