@@ -47,3 +47,15 @@ function randomSpecialCharacters(length) {
   return result;
 }
 ```
+
+Lastly create the generator function that will call all three previous functions
+together and generate a new strong random password every time it is called.
+``` javascript
+// Finally create the final function to grab all 3 functions and put it together
+// This function will call all 3 functions and generate a new strong password
+// every time it is called
+function generatePassword() {
+  console.log(randomLetters(4) + randomSpecialCharacters(1) + randomNumber());
+}
+generatePassword();
+```
